@@ -10,7 +10,7 @@ from telethon import events
 @MafiaBot3.on(events.CallbackQuery(data=b'alive'))
 @MafiaBot4.on(events.CallbackQuery(data=b'alive'))
 @MafiaBot5.on(events.CallbackQuery(data=b'alive'))
-async def no(e):
+async def alive_query(e):
     if e.query.user_id not in MY_USERS:
         await e.answer("Only Owner, Co-Owner And Sudo Users Can Access This Buttons!", cache_time=0, alert=True)
     else:
@@ -21,7 +21,7 @@ async def no(e):
 @MafiaBot3.on(events.CallbackQuery(data=b'ping'))
 @MafiaBot4.on(events.CallbackQuery(data=b'ping'))
 @MafiaBot5.on(events.CallbackQuery(data=b'ping'))
-async def no(e):
+async def ping_query(e):
     if e.query.user_id not in MY_USERS:
         await e.answer("Only Owner, Co-Owner And Sudo Users Can Access This Buttons!", cache_time=0, alert=True)
     else:
@@ -32,7 +32,7 @@ async def no(e):
 @MafiaBot3.on(events.CallbackQuery(data=b'raid'))
 @MafiaBot4.on(events.CallbackQuery(data=b'raid'))
 @MafiaBot5.on(events.CallbackQuery(data=b'raid'))
-async def no(e):
+async def raid_query(e):
     if e.query.user_id not in MY_USERS:
         await e.answer("Only Owner, Co-Owner And Sudo Users Can Access This Buttons!", cache_time=0, alert=True)
     else:
@@ -43,7 +43,7 @@ async def no(e):
 @MafiaBot3.on(events.CallbackQuery(data=b'replyraid'))
 @MafiaBot4.on(events.CallbackQuery(data=b'replyraid'))
 @MafiaBot5.on(events.CallbackQuery(data=b'replyraid'))
-async def no(e):
+async def replyraid_query(e):
     if e.query.user_id not in MY_USERS:
         await e.answer("Only Owner, Co-Owner And Sudo Users Can Access This Buttons!", cache_time=0, alert=True)
     else:
@@ -54,7 +54,7 @@ async def no(e):
 @MafiaBot3.on(events.CallbackQuery(data=b'spam'))
 @MafiaBot4.on(events.CallbackQuery(data=b'spam'))
 @MafiaBot5.on(events.CallbackQuery(data=b'spam'))
-async def no(e):
+async def spam_query(e):
     if e.query.user_id not in MY_USERS:
         await e.answer("Only Owner, Co-Owner And Sudo Users Can Access This Buttons!", cache_time=0, alert=True)
     else:
@@ -65,7 +65,7 @@ async def no(e):
 @MafiaBot3.on(events.CallbackQuery(data=b'pspam'))
 @MafiaBot4.on(events.CallbackQuery(data=b'pspam'))
 @MafiaBot5.on(events.CallbackQuery(data=b'pspam'))
-async def no(e):
+async def pspam_query(e):
     if e.query.user_id not in MY_USERS:
         await e.answer("Only Owner, Co-Owner And Sudo Users Can Access This Buttons!", cache_time=0, alert=True)
     else:
@@ -76,7 +76,7 @@ async def no(e):
 @MafiaBot3.on(events.CallbackQuery(data=b'extras'))
 @MafiaBot4.on(events.CallbackQuery(data=b'extras'))
 @MafiaBot5.on(events.CallbackQuery(data=b'extras'))
-async def no(e):
+async def extras_query(e):
     if e.query.user_id not in MY_USERS:
         await e.answer("Only Owner, Co-Owner And Sudo Users Can Access This Buttons!", cache_time=0, alert=True)
     else:
@@ -87,7 +87,7 @@ async def no(e):
 @MafiaBot3.on(events.CallbackQuery(data=b'back'))
 @MafiaBot4.on(events.CallbackQuery(data=b'back'))
 @MafiaBot5.on(events.CallbackQuery(data=b'back'))
-async def no(e):
+async def back_query(e):
     if e.query.user_id not in MY_USERS:
         await e.answer("Only Owner, Co-Owner And Sudo Users Can Access This Buttons!", cache_time=0, alert=True)
     else:
