@@ -7,7 +7,7 @@ from spambot.utils import load_plugs
 
 @MafiaBot1.on(events.NewMessage(incoming=True, pattern="/install"))
 async def install(e):
-    if e.sender_id in LIMIT:
+    if e.sender_id in MY_USERS:
         ok = await e.client.send_message(e.chat_id, "`Installing Given Module!`")
         if e.reply_to_msg_id:
             module = await e.get_reply_message()
@@ -24,7 +24,7 @@ async def install(e):
 
 @MafiaBot1.on(events.NewMessage(incoming=True, pattern="/uninstall"))
 async def uninstall(e):
-    if e.sender_id in LIMIT:
+    if e.sender_id in MY_USERS:
         text = e.raw_text[11:]
         mypath = f"./spambot/plugins/{text}.py"
         try:
