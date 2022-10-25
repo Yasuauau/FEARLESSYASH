@@ -3,8 +3,7 @@ from spambot import *
 from spambot import MafiaBot1
 from pathlib import Path
 from telethon import events
-from spambot.__main__ import load_plugs
-
+from spambot.utils import load_plugs
 
 @MafiaBot1.on(events.NewMessage(incoming=True, pattern="/install"))
 async def install(e):
