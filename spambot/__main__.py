@@ -1,7 +1,5 @@
 import sys
 import glob
-import importlib
-import logging
 from pathlib import Path
 from sys import argv
 from spambot import *
