@@ -7,15 +7,6 @@ from sys import argv
 from spambot import *
 from spambot import MafiaBot1, MafiaBot2, MafiaBot3, MafiaBot4, MafiaBot5
 
-def load_plugs(plugname):
-    modules = Path(f"spambot/plugins/{plugname}.py")
-    myfiles = f"spambot.plugins.{plugname}"
-    spec = importlib.util.spec_from_file_location(myfiles, modules)
-    load = importlib.util.module_from_spec(spec)
-    load.logger = logging.getLogger(plugname)
-    spec.loader.exec_module(load)
-    sys.modules["spambot.plugins." + plugname] = load
-    print("MafiaSpamBot - Successfully Imported " + plugname)
 
 if __name__ == "__main__":
     modules = "spambot/plugins/*.py"
