@@ -11,7 +11,6 @@ from spambot.helpers.neko import paster
 @MafiaBot5.on(events.NewMessage(incoming=True, pattern='/restart'))
 async def restart(e):
     if e.sender_id in MY_USERS:
-        await e.delete()
         if (HEROKU_API_KEY is not None) or (HEROKU_APP_NAME is not None):
             try:
                 await e.client.send_message(e.chat_id, "`Restarting...`")
@@ -30,7 +29,6 @@ async def restart(e):
 @MafiaBot5.on(events.NewMessage(incoming=True, pattern='/logs'))
 async def restart(e):
     if e.sender_id in MY_USERS:
-        await e.delete()
         if (HEROKU_API_KEY is not None) or (HEROKU_APP_NAME is not None):
             try:
                 heroku_conn = heroku3.from_key(HEROKU_API_KEY)
