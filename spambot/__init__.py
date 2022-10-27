@@ -20,7 +20,8 @@ CO_OWNER_ID = Config.CO_OWNER_ID
 SUDO_USERS = Config.SUDO_USERS
 DISPLAY_PIC = str(Config.DISPLAY_PIC) if Config.DISPLAY_PIC else "https://telegra.ph/file/0db6ef22ae3b481c3891c.jpg"
 BIO_MSG = str(Config.BIO_MSG) if Config.BIO_MSG else "Mafia Spam Bot Ready To Fuck Haters!"
-
+HEROKU_API_KEY = Config.HEROKU_API_KEY
+HEROKU_APP_NAME = Config.HEROKU_APP_NAME
 
 BOT_VERSION = 1.0
 
