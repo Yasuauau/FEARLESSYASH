@@ -78,6 +78,16 @@
     "API_HASH": {
       "description": "Enter Your Telegram Api Hash. Get It From my.telegram.org!",
       "value": ""
+    },
+    "HEROKU_API_KEY": {
+      "description": "Enter Your Heroku Api Key. Get It From dashboard.heroku.com/account!",
+      "value": "",
+      "required": false
+    },
+    "HEROKU_APP_NAME": {
+      "description": "Enter Your Heroku App Name!",
+      "value": "",
+      "required": false
     }
   },
   "buildpacks": [
