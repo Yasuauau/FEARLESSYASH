@@ -82,6 +82,17 @@ async def extras_query(e):
     else:
         await e.edit(f"{EXTRA_CMD}", buttons=BACK)
 
+@MafiaBot1.on(events.CallbackQuery(data=b'heroku'))
+@MafiaBot2.on(events.CallbackQuery(data=b'heroku'))
+@MafiaBot3.on(events.CallbackQuery(data=b'heroku'))
+@MafiaBot4.on(events.CallbackQuery(data=b'heroku'))
+@MafiaBot5.on(events.CallbackQuery(data=b'heroku'))
+async def heroku(e):
+    if e.query.user_id not in MY_USERS:
+        await e.answer("Only Owner, Co-Owner And Sudo Users Can Access This Buttons!", cache_time=0, alert=True)
+    else:
+        await e.edit(f"{HEROKU_CMD}", buttons=BACK)
+
 @MafiaBot1.on(events.CallbackQuery(data=b'back'))
 @MafiaBot2.on(events.CallbackQuery(data=b'back'))
 @MafiaBot3.on(events.CallbackQuery(data=b'back'))
