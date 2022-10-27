@@ -4,11 +4,6 @@ from telethon import events
 from spambot.helpers.neko import paster
 
 
-@MafiaBot1.on(events.NewMessage(outgoing=True, pattern='/restart'))
-@MafiaBot2.on(events.NewMessage(outgoing=True, pattern='/restart'))
-@MafiaBot3.on(events.NewMessage(outgoing=True, pattern='/restart'))
-@MafiaBot4.on(events.NewMessage(outgoing=True, pattern='/restart'))
-@MafiaBot5.on(events.NewMessage(outgoing=True, pattern='/restart'))
 @MafiaBot1.on(events.NewMessage(incoming=True, pattern='/restart'))
 @MafiaBot2.on(events.NewMessage(incoming=True, pattern='/restart'))
 @MafiaBot3.on(events.NewMessage(incoming=True, pattern='/restart'))
