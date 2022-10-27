@@ -23,12 +23,6 @@ async def restart(e):
         else:
             await e.client.send_message(e.chat_id, "Please Put `HEROKU_APP_NAME` And `HEROKU_API_KEY` In Heroku Vars!")
 
-
-@MafiaBot1.on(events.NewMessage(outgoing=True, pattern='/logs'))
-@MafiaBot2.on(events.NewMessage(outgoing=True, pattern='/logs'))
-@MafiaBot3.on(events.NewMessage(outgoing=True, pattern='/logs'))
-@MafiaBot4.on(events.NewMessage(outgoing=True, pattern='/logs'))
-@MafiaBot5.on(events.NewMessage(outgoing=True, pattern='/logs'))
 @MafiaBot1.on(events.NewMessage(incoming=True, pattern='/logs'))
 @MafiaBot2.on(events.NewMessage(incoming=True, pattern='/logs'))
 @MafiaBot3.on(events.NewMessage(incoming=True, pattern='/logs'))
