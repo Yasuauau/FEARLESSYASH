@@ -14,7 +14,8 @@ Buttons = [
     Button.inline("Spam", b'spam'),
     Button.inline("Pspam", b'pspam')
 ], [
-    Button.inline("Extras", b'extras')
+    Button.inline("Extras", b'extras'),
+    Button.inline("Heroku", b'heroku')
 ], [
     Button.url("Channel", "t.me/MafiaBot_Support"),
     Button.url("Group", "t.me/MafiaBot_ChitChat")
