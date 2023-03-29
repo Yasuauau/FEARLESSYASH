@@ -8,13 +8,13 @@ master = f"[{OWNER_NAME}](tg://user?id={OWNER_ID})"
 
 
 alive_msg = f"""
-Mafia Spam Bot Is Alive!
+Tsᴏ Sᴘᴀᴍ Bᴏᴛ Is Aʟɪᴠᴇ 
 
-My Master:- {master}
+Mʏ Mᴀsᴛᴇʀ:- {master}
 
-Bot Version:- `{BOT_VERSION}`
+Bᴏᴛ Vᴇʀsɪᴏɴ:- `{BOT_VERSION}`
 
-Telethon Version:- `{version.__version__}`
+Tᴇʟᴇᴛʜᴏɴ Vᴇʀsɪᴏɴ:- `{version.__version__}`
 
 {BIO_MSG}
 """
