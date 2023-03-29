@@ -36,7 +36,7 @@ async def restart(e):
                 log = app.get_log()
                 logs1 = await paster(log)
                 paste = f"[Click Here To Check Logs]({logs1})"
-                await e.client.send_message(e.chat_id, f"Mafia Spam Userbot Logs:- {paste}\n")  
+                await e.client.send_message(e.chat_id, f"Tsᴏ Sᴘᴀᴍ Usᴇʀʙᴏᴛ Lᴏɢs:- {paste}\n")  
             except Exception as er:
                 print(er)
         else:
