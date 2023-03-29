@@ -5,20 +5,20 @@ from telethon import events, Button
 
 
 Buttons = [
-    Button.inline("Alive", b'alive'),
-    Button.inline("Ping", b'ping')
+    Button.inline("Aʟɪᴠᴇ", b'alive'),
+    Button.inline("Pɪɴɢ", b'ping')
 ], [
-    Button.inline("Raid", b'raid'),
-    Button.inline("Reply Raid", b'replyraid')
+    Button.inline("Rᴀɪᴅ", b'raid'),
+    Button.inline("Rᴇᴘʟʏ Rᴀɪᴅ", b'replyraid')
 ], [
-    Button.inline("Spam", b'spam'),
-    Button.inline("Pspam", b'pspam')
+    Button.inline("Sᴘᴀᴍ", b'spam'),
+    Button.inline("Psᴘᴀᴍ", b'pspam')
 ], [
-    Button.inline("Extras", b'extras'),
-    Button.inline("Heroku", b'heroku')
+    Button.inline("Exᴛʀᴀs", b'extras'),
+    Button.inline("Hᴇʀᴏᴋᴜ", b'heroku')
 ], [
-    Button.url("Channel", "t.me/MafiaBot_Support"),
-    Button.url("Group", "t.me/MafiaBot_ChitChat")
+    Button.url("Sᴜᴘᴘᴏʀᴛ ⚙", "t.me/tso_chats"),
+    Button.url("Uᴘᴅᴀᴛᴇs 🚀", "t.me/tso_updates")
 ]
 
 BACK = [
