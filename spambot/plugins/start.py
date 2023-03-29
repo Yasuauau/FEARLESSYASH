@@ -28,15 +28,15 @@ async def start(e):
         else:
             sudo_user = "False"
         ON_START = f"""
-Hey {mention},
+Hᴇʏ {mention},
 
-This Is Mafia Spam Bot!
+Tʜɪs ɪs Tsᴏ Sᴘᴀᴍ Bᴏᴛ ⋟
 
-Owner:- {myOwner}
+Oᴡɴᴇʀ :- {myOwner}
 
-Sudo:- {sudo_user}
+Sᴜᴅᴏ :- {sudo_user}
 
-Creator:- {creator}
+ᴅᴇᴠʟᴏᴘᴇʀ :- {creator}
     """
         await e.client.send_file(e.chat_id, DISPLAY_PIC, caption=ON_START, buttons=data)
 
