@@ -4,9 +4,9 @@ from telethon import events, Button
 
 
 data  = [
-    Button.url("Channel", url="t.me/MafiaBot_Support"),
-    Button.url("Repo", url="https://GitHub.com/TheMafiaBot/"),
-    Button.url("Group", url="t.me/MafiaBot_ChitChat")
+    Button.url("Sᴜᴘᴘᴏʀᴛ ⚙", url="t.me/tso_chats"),
+    Button.url("Uᴘᴅᴀᴛᴇs 🚀", url="t.me/tso_updates"),
+    Button.url("Sᴏᴜʀᴄᴇ 📡", url="https://GitHub.com/wastertso")
 ]
 
 
@@ -21,7 +21,7 @@ async def start(e):
         user_id = e.sender_id
         mention = f"[{name}](tg://user?id={user_id})"
         myOwner = f"[{OWNER_NAME}](tg://user?id={OWNER_ID})"
-        creator = f"[](tg://user?id={1212368262})"
+        creator = f"[Tʜᴇ Sʜɪᴠ Oғғɪᴄɪᴀʟ](t.me/ll_tso_king_ll})"
         sudo_user = ""
         if e.sender_id in MY_USERS:
             sudo_user = "True"
