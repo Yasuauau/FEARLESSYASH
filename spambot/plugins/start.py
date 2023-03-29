@@ -21,22 +21,22 @@ async def start(e):
         user_id = e.sender_id
         mention = f"[{name}](tg://user?id={user_id})"
         myOwner = f"[{OWNER_NAME}](tg://user?id={OWNER_ID})"
-        creator = f"[Himanshu](tg://user?id={1212368262})"
+        creator = f"[](tg://user?id={1212368262})"
         sudo_user = ""
         if e.sender_id in MY_USERS:
             sudo_user = "True"
         else:
             sudo_user = "False"
         ON_START = f"""
-Hᴇʏ {mention},
+Hᴇʏ 🍷 {mention},
 
-Tʜɪs ɪs Tsᴏ Sᴘᴀᴍ Bᴏᴛ ⋟
+Tʜɪs ɪs Tsᴏ Sᴘᴀᴍ Bᴏᴛ ⋟ 😈
 
-Oᴡɴᴇʀ :- {myOwner}
+Oᴡɴᴇʀ 💸 :- {myOwner}
 
-Sᴜᴅᴏ :- {sudo_user}
+Sᴜᴅᴏ 🥷 :- {sudo_user}
 
-ᴅᴇᴠʟᴏᴘᴇʀ :- {creator}
+Dᴇᴠᴇʟᴏᴘᴇʀ 👨‍💻:- {creator}
     """
         await e.client.send_file(e.chat_id, DISPLAY_PIC, caption=ON_START, buttons=data)
 
