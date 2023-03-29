@@ -21,7 +21,7 @@ async def start(e):
         user_id = e.sender_id
         mention = f"[{name}](tg://user?id={user_id})"
         myOwner = f"[{OWNER_NAME}](tg://user?id={OWNER_ID})"
-        creator = f"[Tʜᴇ Sʜɪᴠ Oғғɪᴄɪᴀʟ](t.me/ll_tso_king_ll})"
+        creator = f"[Tʜᴇ Sʜɪᴠ Oғғɪᴄɪᴀʟ](t.me/ll_tso_king_ll)"
         sudo_user = ""
         if e.sender_id in MY_USERS:
             sudo_user = "True"
