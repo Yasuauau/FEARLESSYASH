@@ -1,7 +1,5 @@
 # ⚡🔥MAFIA SPAM BOT🔥⚡
 
-<img src=''https://te.legra.ph/file/c33f95fcfff1399276304.jpg"alternate="Meow Meow... Your Internet Gones..." height="250px">
-
 [![Deploy To Heroku](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy) 
 
 
